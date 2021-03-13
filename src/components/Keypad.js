@@ -11,7 +11,7 @@ export default class Keypad extends Component {
   render(){
     return (
       <input type = "password"
-        onblur = {handleBlur}
+        onkeyUp = {handleKeyUp}
         onfocus = {handleFocus}
         ></input>
     )
