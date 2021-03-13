@@ -14,6 +14,7 @@ export default class EyesOnMe extends Component {
       <button
         onblur = {handleBlur}
         onfocus = {handleFocus}
+        ></button>
     )
   }
 }
